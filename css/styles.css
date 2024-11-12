@@ -1,0 +1,81 @@
+:root{
+    --fb-bg: #1877F2;
+    --gmail-bg: #D1462A;
+    --linkedin-bg: #0077B5;
+    --github-bg: #181717;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+}
+header h1{
+    margin: 5px auto;
+}
+
+.footer-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.contact-row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+hr{
+    border-top: 3px solid black;
+    width: 30%;
+    margin: 0 20px;
+}
+.hide{
+    display: none;
+}
+.name-warning{
+    color: red;
+}
+.btn{
+    margin: 5px;
+}
+.fb{
+    background: url(../images/facebook-icon-1.png) no-repeat center;
+}
+.gmail{
+    background: url(../images/gmail-icon-1.png) no-repeat center;
+}
+.linkedin{
+    background: url(../images/linkedin-logo-1.png) no-repeat center;
+}
+.github{
+    background: url(../images/github-icon-1.png) no-repeat center;
+}
+.contact-icon{
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px;
+    border-radius: 100%;
+}
+.fb:hover{
+    background: url(../images/facebook-icon-2.png) no-repeat center;
+    background-color: var(--fb-bg);
+}
+.gmail:hover{
+    background: url(../images/gmail-icon-2.png) no-repeat center;
+    background-color: var(--gmail-bg);
+}
+.linkedin:hover{
+    background: url(../images/linkedin-logo-2.png) no-repeat center;
+    background-color: var(--linkedin-bg);
+}
+.github:hover{
+    background: url(../images/github-icon-2.png) no-repeat center;
+    background-color: var(--github-bg);
+}
