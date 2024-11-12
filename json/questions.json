@@ -1,0 +1,107 @@
+[
+    {
+        "question": "What is the periodic table symbol for Gold?",
+        "choices": ["G", "Au", "Ag", "Go"],
+        "correct_index": 1
+    },
+    {
+        "question": "Who wrote the play 'Romeo and Juliet'?",
+        "choices": ["William Shakespeare", "Charles Dickens", "Jane Austen", "Mark Twain"],
+        "correct_index": 0
+    },
+    {
+        "question": "What is the capital city of France?",
+        "choices": ["Rome", "Berlin", "Paris", "Madrid"],
+        "correct_index": 2
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "choices": ["Mars", "Earth", "Venus", "Jupiter"],
+        "correct_index": 0
+    },
+    {
+        "question": "What is the largest ocean on Earth?",
+        "choices": ["Atlantic", "Indian", "Arctic", "Pacific"],
+        "correct_index": 3
+    },
+    {
+        "question": "Which animal is known as the King of the Jungle?",
+        "choices": ["Lion", "Elephant", "Tiger", "Giraffe"],
+        "correct_index": 0
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "choices": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+        "correct_index": 2
+    },
+    {
+        "question": "What is the largest planet in our solar system?",
+        "choices": ["Saturn", "Earth", "Jupiter", "Neptune"],
+        "correct_index": 2
+    },
+    {
+        "question": "Which element has the chemical symbol 'O'?",
+        "choices": ["Oxygen", "Osmium", "Ozone", "Opium"],
+        "correct_index": 0
+    },
+    {
+        "question": "How many continents are there on Earth?",
+        "choices": ["5", "6", "7", "8"],
+        "correct_index": 2
+    },
+    {
+        "question": "What is the main ingredient in guacamole?",
+        "choices": ["Tomato", "Avocado", "Onion", "Lemon"],
+        "correct_index": 1
+    },
+    {
+        "question": "What is the longest river in the world?",
+        "choices": ["Amazon River", "Nile River", "Yangtze River", "Mississippi River"],
+        "correct_index": 1
+    },
+    {
+        "question": "Which country is the largest by land area?",
+        "choices": ["United States", "China", "Canada", "Russia"],
+        "correct_index": 3
+    },
+    {
+        "question": "What is the fastest land animal?",
+        "choices": ["Lion", "Cheetah", "Horse", "Elephant"],
+        "correct_index": 1
+    },
+    {
+        "question": "What year did the Titanic sink?",
+        "choices": ["1912", "1920", "1898", "1935"],
+        "correct_index": 0
+    },
+    {
+        "question": "Which ocean is on the east coast of the United States?",
+        "choices": ["Atlantic", "Pacific", "Indian", "Southern"],
+        "correct_index": 0
+    },
+    {
+        "question": "What is the hardest natural substance on Earth?",
+        "choices": ["Gold", "Diamond", "Iron", "Platinum"],
+        "correct_index": 1
+    },
+    {
+        "question": "Which fruit is known as the 'king of fruits'?",
+        "choices": ["Mango", "Durian", "Pineapple", "Banana"],
+        "correct_index": 1
+    },
+    {
+        "question": "What is the square root of 64?",
+        "choices": ["6", "7", "8", "9"],
+        "correct_index": 2
+    },
+    {
+        "question": "What is the official language of Brazil?",
+        "choices": ["Spanish", "Portuguese", "French", "English"],
+        "correct_index": 1
+    },
+    {
+        "question": "What is the tallest mountain in the world?",
+        "choices": ["Mount Kilimanjaro", "Mount Everest", "Mount Fuji", "K2"],
+        "correct_index": 1
+    }
+]
