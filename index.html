@@ -13,7 +13,7 @@
         <h1>Trivial!</h1>
     </header>
 
-    <section class="container-fluid w-100 bg-primary bg-gradient flex-grow-1 d-flex justify-content-center align-items-center">
+    <section class="container-fluid w-100 bg-primary bg-gradient flex-grow-1 d-flex flex-column justify-content-center align-items-center">
         <div class="welcome-card card w-50">
             <div class="card-header">
                 Welcome!
@@ -22,35 +22,76 @@
                 <h5 class="card-title">Are you a master of niche trivias?</h5>
                 <div class="list-group">
                 <p>Do you have the common sense, general knowledge, and thinking skills to pass this TRIVIAL quiz?</p>
-                <input id="name-input" class="input-group-text text-start mb-3" placeholder="Enter your name...">
-                <button id="start-btn" class="btn btn-info w-50 align-self-center text-center text-white">Start</button>
-                </div>
-            </div>
-        </div>
-        
-        <div class="question-card card w-50 hide">
-            <div class="card-header">
-                Question #1
-            </div>
-            <div class="card-body">
-                <h5 class="card-title">What is the capital of France?</h5>
-                <div class="list-group btn-wrapper">
-                    <button class="btn btn-secondary correct">Paris</button>
-                    <button class="btn btn-secondary">London</button>
-                    <button class="btn btn-secondary">Berlin</button>
-                    <button class="btn btn-secondary">Madrid</button>
+                <label for="category">Category:</label>
+                <select id="category" class="form-select" aria-label="Default select example">
+                    <option value="Any" selected>Any</option>
+                    <option value="Science">Science</option>
+                    <option value="History">History</option>
+                    <option value="Math">Math</option>
+                </select>
+
+                <label for="difficulty">Difficulty:</label>
+                <select id="difficulty" class="form-select" aria-label="Default select example">
+                    <option value="Any" selected>Any</option>
+                    <option value="Easy">Easy</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Hard">Hard</option>
+                </select>
+                <button id="start-btn" class="btn btn-info w-50 mt-3 align-self-center text-center text-white">Start</button>
                 </div>
             </div>
         </div>
 
-        <div class="game-end-card card w-50 hide">
+        <div class="loading-card card w-50 hide">
+            <div class="card-body">
+                <h1>Loading...</h1>
+            </div>
+        </div>
+
+
+        <div class="container question-container full-height full-width hide">
+            <div class="row h-75">
+                <div class="col-12 d-flex justify-content-center align-items-center">
+
+                    <div class="question-card card position-relative w-50">
+                        <div class="prev-btn hide"></div>
+
+                        <div class="card-header">
+                            Question #1
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">What is the capital of France?</h5>
+                            <div class="list-group btn-wrapper">
+                                <button class="btn btn-secondary pressable correct">Paris</button>
+                                <button class="btn btn-secondary pressable">London</button>
+                                <button class="btn btn-secondary pressable">Berlin</button>
+                                <button class="btn btn-secondary pressable">Madrid</button>
+                            </div>
+                        </div>
+
+                        <div class="next-btn hide"></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row h-25 mt-2">
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                    <h3 class="text-white me-2">Your Score: </h3>
+                <h3 class="score-text text-white">0</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="game-end-card card position-relative w-50 hide">
+            <div class="prev-btn"></div>
+
             <div class="card-header">
                 Game End
             </div>
             <div class="card-body">
-                <h5 class="card-title">You had finished the quiz!</h5>
-                <h1>Your score:</h1>
-                <p class="score-text"></p>
+                <h4 class="card-title">You had finished the quiz!</h4>
+                <h4 class="mb-0">Your score: <strong class="score-text"></strong></h4>  
             </div>
         </div>
     </section>

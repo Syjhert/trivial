@@ -1,107 +1,2150 @@
 [
     {
-        "question": "What is the periodic table symbol for Gold?",
-        "choices": ["G", "Au", "Ag", "Go"],
-        "correct_index": 1
+        "question": "What is 5 + 3?",
+        "choices": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
+        "correct_index": 3,
+        "category": "Math",
+        "difficulty": "Easy"
     },
     {
-        "question": "Who wrote the play 'Romeo and Juliet'?",
-        "choices": ["William Shakespeare", "Charles Dickens", "Jane Austen", "Mark Twain"],
-        "correct_index": 0
+        "question": "What is 12 - 4?",
+        "choices": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "correct_index": 2,
+        "category": "Math",
+        "difficulty": "Easy"
     },
     {
-        "question": "What is the capital city of France?",
-        "choices": ["Rome", "Berlin", "Paris", "Madrid"],
-        "correct_index": 2
+        "question": "What is 6 * 3?",
+        "choices": [
+            "12",
+            "18",
+            "20",
+            "24"
+        ],
+        "correct_index": 1,
+        "category": "Math",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is 20 ÷ 4?",
+        "choices": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ],
+        "correct_index": 1,
+        "category": "Math",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the square root of 16?",
+        "choices": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "correct_index": 2,
+        "category": "Math",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is 9 + 10?",
+        "choices": [
+            "18",
+            "19",
+            "20",
+            "21"
+        ],
+        "correct_index": 1,
+        "category": "Math",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is 15 - 7?",
+        "choices": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
+        "correct_index": 3,
+        "category": "Math",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is 3 * 4?",
+        "choices": [
+            "10",
+            "11",
+            "12",
+            "13"
+        ],
+        "correct_index": 2,
+        "category": "Math",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is 100 ÷ 5?",
+        "choices": [
+            "18",
+            "20",
+            "25",
+            "30"
+        ],
+        "correct_index": 2,
+        "category": "Math",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is 25 + 25?",
+        "choices": [
+            "40",
+            "50",
+            "60",
+            "70"
+        ],
+        "correct_index": 1,
+        "category": "Math",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is 2 * 2?",
+        "choices": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "correct_index": 1,
+        "category": "Math",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the value of pi up to two decimal places?",
+        "choices": [
+            "3.12",
+            "3.13",
+            "3.14",
+            "3.15"
+        ],
+        "correct_index": 2,
+        "category": "Math",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is 7 * 7?",
+        "choices": [
+            "48",
+            "49",
+            "50",
+            "51"
+        ],
+        "correct_index": 1,
+        "category": "Math",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is 16 ÷ 2?",
+        "choices": [
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "correct_index": 1,
+        "category": "Math",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the perimeter of a square with side length 4?",
+        "choices": [
+            "12",
+            "14",
+            "16",
+            "18"
+        ],
+        "correct_index": 2,
+        "category": "Math",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is 5 + 9?",
+        "choices": [
+            "13",
+            "14",
+            "15",
+            "16"
+        ],
+        "correct_index": 3,
+        "category": "Math",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is 8 * 8?",
+        "choices": [
+            "54",
+            "62",
+            "64",
+            "66"
+        ],
+        "correct_index": 2,
+        "category": "Math",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is 50 ÷ 10?",
+        "choices": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
+        "correct_index": 0,
+        "category": "Math",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is 18 - 9?",
+        "choices": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "correct_index": 0,
+        "category": "Math",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is 10 * 10?",
+        "choices": [
+            "90",
+            "100",
+            "110",
+            "120"
+        ],
+        "correct_index": 1,
+        "category": "Math",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is 15 × 13?",
+        "choices": [
+            "175",
+            "180",
+            "185",
+            "195"
+        ],
+        "correct_index": 3,
+        "category": "Math",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the value of 3^4?",
+        "choices": [
+            "81",
+            "64",
+            "27",
+            "12"
+        ],
+        "correct_index": 0,
+        "category": "Math",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is 72 ÷ 9?",
+        "choices": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "correct_index": 0,
+        "category": "Math",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the area of a circle with radius 5?",
+        "choices": [
+            "25π",
+            "30π",
+            "35π",
+            "40π"
+        ],
+        "correct_index": 0,
+        "category": "Math",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the perimeter of a rectangle with length 8 and width 6?",
+        "choices": [
+            "24",
+            "28",
+            "30",
+            "32"
+        ],
+        "correct_index": 1,
+        "category": "Math",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is 25 × 16?",
+        "choices": [
+            "350",
+            "375",
+            "400",
+            "425"
+        ],
+        "correct_index": 2,
+        "category": "Math",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the square root of 225?",
+        "choices": [
+            "10",
+            "12",
+            "14",
+            "15"
+        ],
+        "correct_index": 3,
+        "category": "Math",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the value of 2^8?",
+        "choices": [
+            "240",
+            "256",
+            "280",
+            "300"
+        ],
+        "correct_index": 1,
+        "category": "Math",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the value of 17 × 9?",
+        "choices": [
+            "149",
+            "153",
+            "157",
+            "161"
+        ],
+        "correct_index": 1,
+        "category": "Math",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the value of 144 ÷ 12?",
+        "choices": [
+            "10",
+            "12",
+            "14",
+            "16"
+        ],
+        "correct_index": 1,
+        "category": "Math",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is 32 × 7?",
+        "choices": [
+            "218",
+            "224",
+            "228",
+            "230"
+        ],
+        "correct_index": 1,
+        "category": "Math",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the value of (5 + 3) × 4?",
+        "choices": [
+            "30",
+            "32",
+            "36",
+            "40"
+        ],
+        "correct_index": 2,
+        "category": "Math",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the hypotenuse of a right triangle with legs of length 6 and 8?",
+        "choices": [
+            "10",
+            "12",
+            "14",
+            "16"
+        ],
+        "correct_index": 0,
+        "category": "Math",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the value of 3 × (4 + 2)?",
+        "choices": [
+            "14",
+            "16",
+            "18",
+            "20"
+        ],
+        "correct_index": 2,
+        "category": "Math",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the value of 81 ÷ 9?",
+        "choices": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ],
+        "correct_index": 1,
+        "category": "Math",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the value of (9 × 4) ÷ 3?",
+        "choices": [
+            "9",
+            "12",
+            "15",
+            "18"
+        ],
+        "correct_index": 1,
+        "category": "Math",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the value of 18 × 5?",
+        "choices": [
+            "85",
+            "90",
+            "95",
+            "100"
+        ],
+        "correct_index": 1,
+        "category": "Math",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the value of 49 ÷ 7?",
+        "choices": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "correct_index": 1,
+        "category": "Math",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the volume of a cube with side length 4?",
+        "choices": [
+            "32",
+            "64",
+            "128",
+            "256"
+        ],
+        "correct_index": 1,
+        "category": "Math",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is 14 × 11?",
+        "choices": [
+            "150",
+            "154",
+            "160",
+            "165"
+        ],
+        "correct_index": 1,
+        "category": "Math",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the integral of x^2?",
+        "choices": [
+            "x^3 + C",
+            "2x + C",
+            "x^2 + C",
+            "x^3"
+        ],
+        "correct_index": 0,
+        "category": "Math",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the value of the derivative of 3x^2 + 5x + 7?",
+        "choices": [
+            "6x + 5",
+            "3x + 5",
+            "6x + 7",
+            "3x^2 + 5"
+        ],
+        "correct_index": 0,
+        "category": "Math",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the solution to the equation 2x + 5 = 17?",
+        "choices": [
+            "x = 6",
+            "x = 7",
+            "x = 8",
+            "x = 5"
+        ],
+        "correct_index": 0,
+        "category": "Math",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the solution to the system of equations: x + y = 10 and 2x - y = 3?",
+        "choices": [
+            "x = 7, y = 3",
+            "x = 6, y = 4",
+            "x = 5, y = 5",
+            "x = 4, y = 6"
+        ],
+        "correct_index": 0,
+        "category": "Math",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the determinant of the matrix [3, 5; 7, 9]?",
+        "choices": [
+            "6",
+            "12",
+            "15",
+            "18"
+        ],
+        "correct_index": 1,
+        "category": "Math",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the value of the cosine of 45 degrees?",
+        "choices": [
+            "√2 / 2",
+            "1 / 2",
+            "1",
+            "√3 / 2"
+        ],
+        "correct_index": 0,
+        "category": "Math",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the solution to the quadratic equation x^2 - 5x + 6 = 0?",
+        "choices": [
+            "x = 2, x = 3",
+            "x = 1, x = 6",
+            "x = 4, x = 2",
+            "x = 5, x = 1"
+        ],
+        "correct_index": 0,
+        "category": "Math",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the value of the sum of the first 100 prime numbers?",
+        "choices": [
+            "24133",
+            "24099",
+            "24680",
+            "25000"
+        ],
+        "correct_index": 0,
+        "category": "Math",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the value of the limit lim(x→∞) (3x^2 - 2x + 5) / (x^2 + 4x - 3)?",
+        "choices": [
+            "3",
+            "2",
+            "5",
+            "1"
+        ],
+        "correct_index": 0,
+        "category": "Math",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the volume of a sphere with radius 7?",
+        "choices": [
+            "143.62",
+            "150.72",
+            "149.82",
+            "148.62"
+        ],
+        "correct_index": 2,
+        "category": "Math",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the sum of the infinite series 1 + 1/2 + 1/4 + 1/8 + ...?",
+        "choices": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "correct_index": 1,
+        "category": "Math",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the value of log(100) to the base 10?",
+        "choices": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "correct_index": 1,
+        "category": "Math",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the value of the derivative of sin(x)?",
+        "choices": [
+            "cos(x)",
+            "-cos(x)",
+            "sin(x)",
+            "-sin(x)"
+        ],
+        "correct_index": 0,
+        "category": "Math",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the result of 5 factorial (5!)?",
+        "choices": [
+            "120",
+            "125",
+            "130",
+            "140"
+        ],
+        "correct_index": 0,
+        "category": "Math",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the area of a triangle with base 10 and height 5?",
+        "choices": [
+            "25",
+            "50",
+            "20",
+            "35"
+        ],
+        "correct_index": 2,
+        "category": "Math",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the value of tan(30 degrees)?",
+        "choices": [
+            "√3 / 3",
+            "1 / √3",
+            "√3",
+            "1"
+        ],
+        "correct_index": 1,
+        "category": "Math",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the result of the matrix multiplication of [1, 2; 3, 4] and [5, 6; 7, 8]?",
+        "choices": [
+            "[19, 22; 43, 50]",
+            "[23, 26; 31, 38]",
+            "[29, 32; 41, 50]",
+            "[15, 18; 25, 30]"
+        ],
+        "correct_index": 0,
+        "category": "Math",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the value of the integral of e^x from 0 to 1?",
+        "choices": [
+            "1",
+            "e",
+            "e - 1",
+            "2"
+        ],
+        "correct_index": 2,
+        "category": "Math",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the sum of the internal angles of a hexagon?",
+        "choices": [
+            "720 degrees",
+            "1080 degrees",
+            "900 degrees",
+            "108 degrees"
+        ],
+        "correct_index": 0,
+        "category": "Math",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the volume of a cone with radius 4 and height 9?",
+        "choices": [
+            "36π",
+            "48π",
+            "72π",
+            "108π"
+        ],
+        "correct_index": 0,
+        "category": "Math",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the chemical symbol for water?",
+        "choices": [
+            "H2O",
+            "O2H",
+            "CO2",
+            "H2O2"
+        ],
+        "correct_index": 0,
+        "category": "Science",
+        "difficulty": "Easy"
     },
     {
         "question": "Which planet is known as the Red Planet?",
-        "choices": ["Mars", "Earth", "Venus", "Jupiter"],
-        "correct_index": 0
+        "choices": [
+            "Mars",
+            "Earth",
+            "Venus",
+            "Jupiter"
+        ],
+        "correct_index": 0,
+        "category": "Science",
+        "difficulty": "Easy"
     },
     {
-        "question": "What is the largest ocean on Earth?",
-        "choices": ["Atlantic", "Indian", "Arctic", "Pacific"],
-        "correct_index": 3
+        "question": "What is the largest organ in the human body?",
+        "choices": [
+            "Skin",
+            "Liver",
+            "Heart",
+            "Brain"
+        ],
+        "correct_index": 0,
+        "category": "Science",
+        "difficulty": "Easy"
     },
     {
-        "question": "Which animal is known as the King of the Jungle?",
-        "choices": ["Lion", "Elephant", "Tiger", "Giraffe"],
-        "correct_index": 0
+        "question": "What gas do plants absorb from the air during photosynthesis?",
+        "choices": [
+            "Oxygen",
+            "Nitrogen",
+            "Carbon Dioxide",
+            "Hydrogen"
+        ],
+        "correct_index": 2,
+        "category": "Science",
+        "difficulty": "Easy"
     },
     {
-        "question": "Who painted the Mona Lisa?",
-        "choices": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
-        "correct_index": 2
+        "question": "What is the boiling point of water in Celsius?",
+        "choices": [
+            "0°C",
+            "100°C",
+            "50°C",
+            "200°C"
+        ],
+        "correct_index": 1,
+        "category": "Science",
+        "difficulty": "Easy"
     },
     {
-        "question": "What is the largest planet in our solar system?",
-        "choices": ["Saturn", "Earth", "Jupiter", "Neptune"],
-        "correct_index": 2
+        "question": "What is the chemical symbol for gold?",
+        "choices": [
+            "Ag",
+            "Au",
+            "Pb",
+            "Fe"
+        ],
+        "correct_index": 1,
+        "category": "Science",
+        "difficulty": "Easy"
     },
     {
-        "question": "Which element has the chemical symbol 'O'?",
-        "choices": ["Oxygen", "Osmium", "Ozone", "Opium"],
-        "correct_index": 0
+        "question": "Which planet is closest to the Sun?",
+        "choices": [
+            "Mercury",
+            "Venus",
+            "Earth",
+            "Mars"
+        ],
+        "correct_index": 0,
+        "category": "Science",
+        "difficulty": "Easy"
     },
     {
-        "question": "How many continents are there on Earth?",
-        "choices": ["5", "6", "7", "8"],
-        "correct_index": 2
+        "question": "Which part of the plant conducts photosynthesis?",
+        "choices": [
+            "Roots",
+            "Stem",
+            "Leaves",
+            "Flowers"
+        ],
+        "correct_index": 2,
+        "category": "Science",
+        "difficulty": "Easy"
     },
     {
-        "question": "What is the main ingredient in guacamole?",
-        "choices": ["Tomato", "Avocado", "Onion", "Lemon"],
-        "correct_index": 1
+        "question": "What is the most common gas in the Earth's atmosphere?",
+        "choices": [
+            "Oxygen",
+            "Carbon Dioxide",
+            "Nitrogen",
+            "Hydrogen"
+        ],
+        "correct_index": 2,
+        "category": "Science",
+        "difficulty": "Easy"
     },
     {
-        "question": "What is the longest river in the world?",
-        "choices": ["Amazon River", "Nile River", "Yangtze River", "Mississippi River"],
-        "correct_index": 1
-    },
-    {
-        "question": "Which country is the largest by land area?",
-        "choices": ["United States", "China", "Canada", "Russia"],
-        "correct_index": 3
-    },
-    {
-        "question": "What is the fastest land animal?",
-        "choices": ["Lion", "Cheetah", "Horse", "Elephant"],
-        "correct_index": 1
-    },
-    {
-        "question": "What year did the Titanic sink?",
-        "choices": ["1912", "1920", "1898", "1935"],
-        "correct_index": 0
-    },
-    {
-        "question": "Which ocean is on the east coast of the United States?",
-        "choices": ["Atlantic", "Pacific", "Indian", "Southern"],
-        "correct_index": 0
+        "question": "Which of these is a mammal?",
+        "choices": [
+            "Shark",
+            "Penguin",
+            "Human",
+            "Lizard"
+        ],
+        "correct_index": 2,
+        "category": "Science",
+        "difficulty": "Easy"
     },
     {
         "question": "What is the hardest natural substance on Earth?",
-        "choices": ["Gold", "Diamond", "Iron", "Platinum"],
-        "correct_index": 1
+        "choices": [
+            "Gold",
+            "Diamond",
+            "Iron",
+            "Silver"
+        ],
+        "correct_index": 1,
+        "category": "Science",
+        "difficulty": "Easy"
     },
     {
-        "question": "Which fruit is known as the 'king of fruits'?",
-        "choices": ["Mango", "Durian", "Pineapple", "Banana"],
-        "correct_index": 1
+        "question": "Which of the following is not a primary color of light?",
+        "choices": [
+            "Red",
+            "Green",
+            "Blue",
+            "Yellow"
+        ],
+        "correct_index": 3,
+        "category": "Science",
+        "difficulty": "Easy"
     },
     {
-        "question": "What is the square root of 64?",
-        "choices": ["6", "7", "8", "9"],
-        "correct_index": 2
+        "question": "What is the chemical symbol for oxygen?",
+        "choices": [
+            "O",
+            "O2",
+            "O3",
+            "Ox"
+        ],
+        "correct_index": 0,
+        "category": "Science",
+        "difficulty": "Easy"
     },
     {
-        "question": "What is the official language of Brazil?",
-        "choices": ["Spanish", "Portuguese", "French", "English"],
-        "correct_index": 1
+        "question": "What is the freezing point of water in Celsius?",
+        "choices": [
+            "32°F",
+            "0°C",
+            "100°C",
+            "0°F"
+        ],
+        "correct_index": 1,
+        "category": "Science",
+        "difficulty": "Easy"
     },
     {
-        "question": "What is the tallest mountain in the world?",
-        "choices": ["Mount Kilimanjaro", "Mount Everest", "Mount Fuji", "K2"],
-        "correct_index": 1
+        "question": "Which element has the chemical symbol 'Na'?",
+        "choices": [
+            "Sodium",
+            "Neon",
+            "Nitrogen",
+            "Noble Gas"
+        ],
+        "correct_index": 0,
+        "category": "Science",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which planet is known for its rings?",
+        "choices": [
+            "Saturn",
+            "Jupiter",
+            "Neptune",
+            "Earth"
+        ],
+        "correct_index": 0,
+        "category": "Science",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the symbol for the element potassium?",
+        "choices": [
+            "K",
+            "P",
+            "Na",
+            "Mg"
+        ],
+        "correct_index": 0,
+        "category": "Science",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What organ is responsible for pumping blood throughout the body?",
+        "choices": [
+            "Lungs",
+            "Stomach",
+            "Heart",
+            "Kidneys"
+        ],
+        "correct_index": 2,
+        "category": "Science",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the process by which plants make their food?",
+        "choices": [
+            "Respiration",
+            "Fermentation",
+            "Photosynthesis",
+            "Evaporation"
+        ],
+        "correct_index": 2,
+        "category": "Science",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which type of animal is a frog?",
+        "choices": [
+            "Mammal",
+            "Reptile",
+            "Amphibian",
+            "Fish"
+        ],
+        "correct_index": 2,
+        "category": "Science",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the atomic number of carbon?",
+        "choices": [
+            "6",
+            "12",
+            "8",
+            "14"
+        ],
+        "correct_index": 0,
+        "category": "Science",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which of these elements is a noble gas?",
+        "choices": [
+            "Neon",
+            "Oxygen",
+            "Nitrogen",
+            "Chlorine"
+        ],
+        "correct_index": 0,
+        "category": "Science",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the chemical formula for methane?",
+        "choices": [
+            "CH4",
+            "C2H6",
+            "C3H8",
+            "CH3"
+        ],
+        "correct_index": 0,
+        "category": "Science",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which type of rock is formed by cooling and solidification of magma?",
+        "choices": [
+            "Sedimentary",
+            "Metamorphic",
+            "Igneous",
+            "Limestone"
+        ],
+        "correct_index": 2,
+        "category": "Science",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which planet has the longest day?",
+        "choices": [
+            "Venus",
+            "Mars",
+            "Jupiter",
+            "Saturn"
+        ],
+        "correct_index": 0,
+        "category": "Science",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which element is essential for the formation of thyroid hormones?",
+        "choices": [
+            "Iodine",
+            "Iron",
+            "Calcium",
+            "Zinc"
+        ],
+        "correct_index": 0,
+        "category": "Science",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the most abundant gas in the Earth's atmosphere?",
+        "choices": [
+            "Oxygen",
+            "Nitrogen",
+            "Carbon Dioxide",
+            "Hydrogen"
+        ],
+        "correct_index": 1,
+        "category": "Science",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What does the pH scale measure?",
+        "choices": [
+            "Density",
+            "Temperature",
+            "Acidity or alkalinity",
+            "Volume"
+        ],
+        "correct_index": 2,
+        "category": "Science",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the process of water vapor turning into liquid water called?",
+        "choices": [
+            "Evaporation",
+            "Condensation",
+            "Precipitation",
+            "Sublimation"
+        ],
+        "correct_index": 1,
+        "category": "Science",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which part of the plant is responsible for absorbing water and nutrients?",
+        "choices": [
+            "Stem",
+            "Leaves",
+            "Roots",
+            "Flowers"
+        ],
+        "correct_index": 2,
+        "category": "Science",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the primary source of energy for the Earth?",
+        "choices": [
+            "The Moon",
+            "The Sun",
+            "Wind",
+            "Geothermal energy"
+        ],
+        "correct_index": 1,
+        "category": "Science",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "How many bones are in the adult human body?",
+        "choices": [
+            "206",
+            "212",
+            "220",
+            "198"
+        ],
+        "correct_index": 0,
+        "category": "Science",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which of the following is a non-renewable energy source?",
+        "choices": [
+            "Solar",
+            "Wind",
+            "Coal",
+            "Geothermal"
+        ],
+        "correct_index": 2,
+        "category": "Science",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the chemical symbol for silver?",
+        "choices": [
+            "Ag",
+            "Au",
+            "Pb",
+            "Si"
+        ],
+        "correct_index": 0,
+        "category": "Science",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the force that pulls objects toward the Earth?",
+        "choices": [
+            "Magnetism",
+            "Inertia",
+            "Gravity",
+            "Friction"
+        ],
+        "correct_index": 2,
+        "category": "Science",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which of the following is an example of an exothermic reaction?",
+        "choices": [
+            "Burning wood",
+            "Melting ice",
+            "Evaporation of water",
+            "Dissolving salt in water"
+        ],
+        "correct_index": 0,
+        "category": "Science",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the atomic number of oxygen?",
+        "choices": [
+            "6",
+            "8",
+            "10",
+            "12"
+        ],
+        "correct_index": 1,
+        "category": "Science",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which of these planets is known for its Great Red Spot?",
+        "choices": [
+            "Mars",
+            "Earth",
+            "Jupiter",
+            "Saturn"
+        ],
+        "correct_index": 2,
+        "category": "Science",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which vitamin is primarily produced when our skin is exposed to sunlight?",
+        "choices": [
+            "Vitamin C",
+            "Vitamin A",
+            "Vitamin D",
+            "Vitamin E"
+        ],
+        "correct_index": 2,
+        "category": "Science",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which element is found in all organic compounds?",
+        "choices": [
+            "Oxygen",
+            "Carbon",
+            "Nitrogen",
+            "Hydrogen"
+        ],
+        "correct_index": 1,
+        "category": "Science",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the second law of thermodynamics?",
+        "choices": [
+            "Energy can neither be created nor destroyed.",
+            "The total entropy of an isolated system always increases.",
+            "For every action, there is an equal and opposite reaction.",
+            "The pressure of a gas is inversely proportional to its volume."
+        ],
+        "correct_index": 1,
+        "category": "Science",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Who is credited with the discovery of the structure of DNA?",
+        "choices": [
+            "Marie Curie",
+            "Rosalind Franklin",
+            "James Watson and Francis Crick",
+            "Gregor Mendel"
+        ],
+        "correct_index": 2,
+        "category": "Science",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the unit of electrical resistance?",
+        "choices": [
+            "Volt",
+            "Watt",
+            "Ohm",
+            "Ampere"
+        ],
+        "correct_index": 2,
+        "category": "Science",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which subatomic particle has no electric charge?",
+        "choices": [
+            "Proton",
+            "Electron",
+            "Neutron",
+            "Positron"
+        ],
+        "correct_index": 2,
+        "category": "Science",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the theory of relativity primarily concerned with?",
+        "choices": [
+            "Electromagnetic waves",
+            "Gravitational forces",
+            "The behavior of matter and energy at high velocities",
+            "The speed of light"
+        ],
+        "correct_index": 2,
+        "category": "Science",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the primary cause of sea-level rise?",
+        "choices": [
+            "Tidal movements",
+            "Thermal expansion of water and melting ice",
+            "Erosion of coastlines",
+            "Volcanic eruptions"
+        ],
+        "correct_index": 1,
+        "category": "Science",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the most common isotope of carbon?",
+        "choices": [
+            "Carbon-12",
+            "Carbon-14",
+            "Carbon-13",
+            "Carbon-15"
+        ],
+        "correct_index": 0,
+        "category": "Science",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which phenomenon explains the bending of light when it passes through different mediums?",
+        "choices": [
+            "Reflection",
+            "Refraction",
+            "Diffraction",
+            "Interference"
+        ],
+        "correct_index": 1,
+        "category": "Science",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the name of the process by which plants convert light into chemical energy?",
+        "choices": [
+            "Respiration",
+            "Photosynthesis",
+            "Fermentation",
+            "Glycolysis"
+        ],
+        "correct_index": 1,
+        "category": "Science",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which scientist proposed the theory of general relativity?",
+        "choices": [
+            "Isaac Newton",
+            "Albert Einstein",
+            "Niels Bohr",
+            "Galileo Galilei"
+        ],
+        "correct_index": 1,
+        "category": "Science",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which of the following elements has the highest electronegativity?",
+        "choices": [
+            "Fluorine",
+            "Oxygen",
+            "Nitrogen",
+            "Chlorine"
+        ],
+        "correct_index": 0,
+        "category": "Science",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the primary factor that determines the rate of a chemical reaction?",
+        "choices": [
+            "Temperature",
+            "Pressure",
+            "Concentration of reactants",
+            "All of the above"
+        ],
+        "correct_index": 3,
+        "category": "Science",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which of the following is a characteristic of black holes?",
+        "choices": [
+            "They emit light.",
+            "They have no gravitational pull.",
+            "They bend space-time and have immense gravitational pull.",
+            "They are made entirely of matter."
+        ],
+        "correct_index": 2,
+        "category": "Science",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the half-life of a radioactive substance?",
+        "choices": [
+            "The time it takes for half of the substance to decay.",
+            "The time it takes for the substance to reach equilibrium.",
+            "The time it takes for the substance to stop emitting radiation.",
+            "The time it takes for the substance to turn into another element."
+        ],
+        "correct_index": 0,
+        "category": "Science",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the most abundant element in the Earth's crust?",
+        "choices": [
+            "Iron",
+            "Oxygen",
+            "Silicon",
+            "Aluminum"
+        ],
+        "correct_index": 1,
+        "category": "Science",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which of these is the longest wavelength of electromagnetic radiation?",
+        "choices": [
+            "Gamma rays",
+            "X-rays",
+            "Radio waves",
+            "Microwaves"
+        ],
+        "correct_index": 2,
+        "category": "Science",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the approximate age of the universe?",
+        "choices": [
+            "4.5 billion years",
+            "10 billion years",
+            "13.8 billion years",
+            "20 billion years"
+        ],
+        "correct_index": 2,
+        "category": "Science",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the main difference between an exothermic and an endothermic reaction?",
+        "choices": [
+            "Exothermic reactions absorb energy, while endothermic reactions release energy.",
+            "Exothermic reactions release energy, while endothermic reactions absorb energy.",
+            "Exothermic reactions occur at high temperatures, while endothermic reactions occur at low temperatures.",
+            "Exothermic reactions involve gas production, while endothermic reactions do not."
+        ],
+        "correct_index": 1,
+        "category": "Science",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which of the following forces is responsible for the acceleration of objects toward the Earth?",
+        "choices": [
+            "Electromagnetic force",
+            "Strong nuclear force",
+            "Gravity",
+            "Weak nuclear force"
+        ],
+        "correct_index": 2,
+        "category": "Science",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the principle behind the law of conservation of mass?",
+        "choices": [
+            "Mass is created in chemical reactions.",
+            "Mass is destroyed in chemical reactions.",
+            "Mass remains constant in chemical reactions.",
+            "Mass can be converted into energy."
+        ],
+        "correct_index": 2,
+        "category": "Science",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the capital city of France?",
+        "choices": [
+            "Berlin",
+            "Madrid",
+            "Paris",
+            "Rome"
+        ],
+        "correct_index": 2,
+        "category": "Geography",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which country is the largest by land area?",
+        "choices": [
+            "China",
+            "United States",
+            "Russia",
+            "Canada"
+        ],
+        "correct_index": 2,
+        "category": "Geography",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which continent is known as the 'Dark Continent'?",
+        "choices": [
+            "Asia",
+            "Africa",
+            "Australia",
+            "South America"
+        ],
+        "correct_index": 1,
+        "category": "Geography",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the longest river in the world?",
+        "choices": [
+            "Amazon River",
+            "Nile River",
+            "Yangtze River",
+            "Mississippi River"
+        ],
+        "correct_index": 1,
+        "category": "Geography",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which ocean is the largest?",
+        "choices": [
+            "Atlantic Ocean",
+            "Indian Ocean",
+            "Arctic Ocean",
+            "Pacific Ocean"
+        ],
+        "correct_index": 3,
+        "category": "Geography",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the capital city of Japan?",
+        "choices": [
+            "Tokyo",
+            "Beijing",
+            "Seoul",
+            "Bangkok"
+        ],
+        "correct_index": 0,
+        "category": "Geography",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which of the following countries is in Africa?",
+        "choices": [
+            "India",
+            "Brazil",
+            "Egypt",
+            "China"
+        ],
+        "correct_index": 2,
+        "category": "Geography",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which country is known for its famous pyramids?",
+        "choices": [
+            "Mexico",
+            "Egypt",
+            "Greece",
+            "India"
+        ],
+        "correct_index": 1,
+        "category": "Geography",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the smallest country in the world?",
+        "choices": [
+            "Monaco",
+            "San Marino",
+            "Vatican City",
+            "Liechtenstein"
+        ],
+        "correct_index": 2,
+        "category": "Geography",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which U.S. state is famous for its Grand Canyon?",
+        "choices": [
+            "California",
+            "Texas",
+            "Arizona",
+            "Florida"
+        ],
+        "correct_index": 2,
+        "category": "Geography",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which continent is the Sahara Desert located on?",
+        "choices": [
+            "Asia",
+            "Africa",
+            "Australia",
+            "North America"
+        ],
+        "correct_index": 1,
+        "category": "Geography",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the imaginary line that divides the Earth into the Northern and Southern Hemispheres?",
+        "choices": [
+            "Equator",
+            "Prime Meridian",
+            "Tropic of Cancer",
+            "Tropic of Capricorn"
+        ],
+        "correct_index": 0,
+        "category": "Geography",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which city is known as the 'Big Apple'?",
+        "choices": [
+            "Los Angeles",
+            "Chicago",
+            "New York City",
+            "Boston"
+        ],
+        "correct_index": 2,
+        "category": "Geography",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the longest mountain range in the world?",
+        "choices": [
+            "Himalayas",
+            "Andes",
+            "Rocky Mountains",
+            "Alps"
+        ],
+        "correct_index": 1,
+        "category": "Geography",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which continent is Australia part of?",
+        "choices": [
+            "Asia",
+            "Oceania",
+            "Africa",
+            "Europe"
+        ],
+        "correct_index": 1,
+        "category": "Geography",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which country is both an island and a continent?",
+        "choices": [
+            "Australia",
+            "Indonesia",
+            "India",
+            "Japan"
+        ],
+        "correct_index": 0,
+        "category": "Geography",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which of these countries is located in South America?",
+        "choices": [
+            "Spain",
+            "Canada",
+            "Brazil",
+            "Australia"
+        ],
+        "correct_index": 2,
+        "category": "Geography",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which of these is the capital of Canada?",
+        "choices": [
+            "Toronto",
+            "Ottawa",
+            "Vancouver",
+            "Montreal"
+        ],
+        "correct_index": 1,
+        "category": "Geography",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which desert is the largest hot desert in the world?",
+        "choices": [
+            "Karakum Desert",
+            "Sahara Desert",
+            "Gobi Desert",
+            "Kalahari Desert"
+        ],
+        "correct_index": 1,
+        "category": "Geography",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which country is home to the city of Machu Picchu?",
+        "choices": [
+            "Argentina",
+            "Brazil",
+            "Peru",
+            "Chile"
+        ],
+        "correct_index": 2,
+        "category": "Geography",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the capital city of Canada?",
+        "choices": [
+            "Ottawa",
+            "Toronto",
+            "Vancouver",
+            "Montreal"
+        ],
+        "correct_index": 0,
+        "category": "Geography",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which of these countries is landlocked?",
+        "choices": [
+            "Peru",
+            "Mexico",
+            "Switzerland",
+            "Australia"
+        ],
+        "correct_index": 2,
+        "category": "Geography",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which river flows through Egypt?",
+        "choices": [
+            "Amazon River",
+            "Yangtze River",
+            "Nile River",
+            "Ganges River"
+        ],
+        "correct_index": 2,
+        "category": "Geography",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which mountain range is found in South America?",
+        "choices": [
+            "Himalayas",
+            "Alps",
+            "Andes",
+            "Rocky Mountains"
+        ],
+        "correct_index": 2,
+        "category": "Geography",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which of the following countries shares a border with Russia?",
+        "choices": [
+            "Finland",
+            "Germany",
+            "France",
+            "Spain"
+        ],
+        "correct_index": 0,
+        "category": "Geography",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the largest island in the world?",
+        "choices": [
+            "Australia",
+            "Greenland",
+            "New Guinea",
+            "Borneo"
+        ],
+        "correct_index": 1,
+        "category": "Geography",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which country is known as the Land of the Rising Sun?",
+        "choices": [
+            "China",
+            "South Korea",
+            "Japan",
+            "Vietnam"
+        ],
+        "correct_index": 2,
+        "category": "Geography",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which city is located on two continents, Europe and Asia?",
+        "choices": [
+            "Istanbul",
+            "Moscow",
+            "Cairo",
+            "Athens"
+        ],
+        "correct_index": 0,
+        "category": "Geography",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which of these rivers is the longest in North America?",
+        "choices": [
+            "Mississippi River",
+            "Colorado River",
+            "Mackenzie River",
+            "Amazon River"
+        ],
+        "correct_index": 0,
+        "category": "Geography",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which of these countries is an archipelago?",
+        "choices": [
+            "Philippines",
+            "India",
+            "Brazil",
+            "Russia"
+        ],
+        "correct_index": 0,
+        "category": "Geography",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which country is the smallest by land area?",
+        "choices": [
+            "Monaco",
+            "Vatican City",
+            "San Marino",
+            "Nauru"
+        ],
+        "correct_index": 1,
+        "category": "Geography",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which country is the largest producer of coffee in the world?",
+        "choices": [
+            "Colombia",
+            "Brazil",
+            "Vietnam",
+            "Indonesia"
+        ],
+        "correct_index": 1,
+        "category": "Geography",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which mountain is the tallest in Africa?",
+        "choices": [
+            "Mount Kilimanjaro",
+            "Mount Kenya",
+            "Mount Everest",
+            "Mount Elbrus"
+        ],
+        "correct_index": 0,
+        "category": "Geography",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which of the following is an African country?",
+        "choices": [
+            "Nepal",
+            "Egypt",
+            "Japan",
+            "India"
+        ],
+        "correct_index": 1,
+        "category": "Geography",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which desert is the largest in the world?",
+        "choices": [
+            "Karakum Desert",
+            "Atacama Desert",
+            "Gobi Desert",
+            "Sahara Desert"
+        ],
+        "correct_index": 3,
+        "category": "Geography",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which of these countries is part of the Scandinavian Peninsula?",
+        "choices": [
+            "Norway",
+            "Sweden",
+            "Denmark",
+            "Finland"
+        ],
+        "correct_index": 1,
+        "category": "Geography",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which U.S. state has the most national parks?",
+        "choices": [
+            "California",
+            "Alaska",
+            "Utah",
+            "Colorado"
+        ],
+        "correct_index": 1,
+        "category": "Geography",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which country is the Great Barrier Reef located off the coast of?",
+        "choices": [
+            "Australia",
+            "South Africa",
+            "Indonesia",
+            "New Zealand"
+        ],
+        "correct_index": 0,
+        "category": "Geography",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which continent is known as the 'Land Down Under'?",
+        "choices": [
+            "Asia",
+            "Europe",
+            "Australia",
+            "Antarctica"
+        ],
+        "correct_index": 2,
+        "category": "Geography",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the longest river in Asia?",
+        "choices": [
+            "Yangtze River",
+            "Mekong River",
+            "Yellow River",
+            "Ganges River"
+        ],
+        "correct_index": 0,
+        "category": "Geography",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which of these countries has no coastline?",
+        "choices": [
+            "Liechtenstein",
+            "Sweden",
+            "Brazil",
+            "Australia"
+        ],
+        "correct_index": 0,
+        "category": "Geography",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which country has the most official languages?",
+        "choices": [
+            "India",
+            "Switzerland",
+            "South Africa",
+            "Belgium"
+        ],
+        "correct_index": 2,
+        "category": "Geography",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which of these countries does not share a border with Russia?",
+        "choices": [
+            "Finland",
+            "China",
+            "Ukraine",
+            "Poland"
+        ],
+        "correct_index": 3,
+        "category": "Geography",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the capital of Kazakhstan?",
+        "choices": [
+            "Almaty",
+            "Astana",
+            "Bishkek",
+            "Tashkent"
+        ],
+        "correct_index": 1,
+        "category": "Geography",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which ocean is the deepest?",
+        "choices": [
+            "Atlantic Ocean",
+            "Indian Ocean",
+            "Arctic Ocean",
+            "Pacific Ocean"
+        ],
+        "correct_index": 3,
+        "category": "Geography",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which of these countries is entirely within the Arctic Circle?",
+        "choices": [
+            "Norway",
+            "Sweden",
+            "Iceland",
+            "Greenland"
+        ],
+        "correct_index": 3,
+        "category": "Geography",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which island is the largest in the Mediterranean Sea?",
+        "choices": [
+            "Sicily",
+            "Crete",
+            "Cyprus",
+            "Corsica"
+        ],
+        "correct_index": 0,
+        "category": "Geography",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which of these countries has the highest population density?",
+        "choices": [
+            "Monaco",
+            "Singapore",
+            "Bangladesh",
+            "Hong Kong"
+        ],
+        "correct_index": 0,
+        "category": "Geography",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which river is considered the longest in Europe?",
+        "choices": [
+            "Volga River",
+            "Danube River",
+            "Rhine River",
+            "Elbe River"
+        ],
+        "correct_index": 0,
+        "category": "Geography",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which country is home to the famous Lake Baikal?",
+        "choices": [
+            "Kazakhstan",
+            "Russia",
+            "China",
+            "Mongolia"
+        ],
+        "correct_index": 1,
+        "category": "Geography",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which country is the world's largest producer of natural gas?",
+        "choices": [
+            "Saudi Arabia",
+            "Russia",
+            "United States",
+            "Qatar"
+        ],
+        "correct_index": 1,
+        "category": "Geography",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the southernmost city in the world?",
+        "choices": [
+            "Puerto Williams",
+            "Ushuaia",
+            "Punta Arenas",
+            "Port Stanley"
+        ],
+        "correct_index": 0,
+        "category": "Geography",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which desert is the largest hot desert in the world?",
+        "choices": [
+            "Sahara Desert",
+            "Kalahari Desert",
+            "Arabian Desert",
+            "Sonoran Desert"
+        ],
+        "correct_index": 0,
+        "category": "Geography",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which country has the most islands in the world?",
+        "choices": [
+            "Sweden",
+            "Norway",
+            "Finland",
+            "Canada"
+        ],
+        "correct_index": 0,
+        "category": "Geography",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which mountain is the highest point in North America?",
+        "choices": [
+            "Mount Denali",
+            "Mount Logan",
+            "Mount Kilimanjaro",
+            "Mount Everest"
+        ],
+        "correct_index": 0,
+        "category": "Geography",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which country has the largest land area in Africa?",
+        "choices": [
+            "Algeria",
+            "Sudan",
+            "Congo",
+            "South Africa"
+        ],
+        "correct_index": 0,
+        "category": "Geography",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the capital city of Morocco?",
+        "choices": [
+            "Marrakesh",
+            "Casablanca",
+            "Rabat",
+            "Tangier"
+        ],
+        "correct_index": 2,
+        "category": "Geography",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which country is both in Europe and Asia?",
+        "choices": [
+            "Russia",
+            "Turkey",
+            "Georgia",
+            "Kazakhstan"
+        ],
+        "correct_index": 1,
+        "category": "Geography",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the largest city in Africa by population?",
+        "choices": [
+            "Cairo",
+            "Lagos",
+            "Kinshasa",
+            "Johannesburg"
+        ],
+        "correct_index": 1,
+        "category": "Geography",
+        "difficulty": "Hard"
     }
 ]
