@@ -1,105 +1,119 @@
 :root{
+    /* contact-info signature background colors */
+    --base-font-size: 18px;
     --fb-bg: #1877F2;
     --gmail-bg: #D1462A;
     --linkedin-bg: #0077B5;
     --github-bg: #181717;
 }
 *{
+    /* universal reset for margins and paddings */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 html, body{
+    /* makes the body take up the whole screen AT MINIMUM */
     min-height: 100vh;
+    font-size: var(--base-font-size);
+    overflow-x: hidden;
 }
 
-header{
-    display: flex;
-}
-header h1{
-    margin: 5px auto;
+header h1, header h5{
+    /* gave margins to headers from <header> */
+    margin: 10px 20px;
+    /* makes mouse behave like its pointing to an <a> */
+    cursor: pointer;
 }
 
+/* general class for hiding elements (not visible to the screen) */
+.hide{
+    display: none;
+}
+/* previous and next buttons for each question-card */
+.prev-btn, .next-btn{
+    width: 90px;
+    height: 100px;
+    position: absolute; /* absolute position so that it is RELATIVE to the question-card */
+    top: 50%; /* positions the buttons at the vertical center of the question-card */
+    transform: translateY(-50%); /* moves the button upward to HALF its height for a TRUE VERTICAL CENTER */
+    cursor: pointer; /* these divs act as buttons so we point the cursor when hovering them */
+}
+.prev-btn{
+    background: url(../images/left-arrow.png) center no-repeat; /* setting up image for the buttons */
+    background-size: cover; /* making sure the whole image is shown in the div */
+    left: -125px; /* positions OUTSIDE the leftmost part of the question-card */
+}
+.next-btn{
+    background: url(../images/right-arrow.png) center no-repeat;
+    background-size: cover;
+    right: -125px; /* positions OUTSIDE the rightmost part of the question-card */
+} 
+
+/* all buttons that use bootstrap class */
+.btn{
+    margin: 5px;
+}
+.btn:hover {
+    transform: scale(1.01); /* when hovered, buttons will GROW slightly */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* when hovered, buttons will have a shadow */
+}
+.btn:active {
+    transform: scale(0.98); /* when pressed, buttons will SHRINK slightly */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* when pressed, buttons will have a shadow */
+}
+
+.card{
+    min-width: 500px;
+    max-width: 40%;
+}
+.question-card {
+
+    transform: translateX(-50%); /* start off-screen to the left */
+    opacity: 0; /* start as transparent */
+    transition: transform 0.25s ease, opacity 0.25s ease; /* slide transition through transform, opacity transition */
+}
+
+.question-card.visible {
+    transform: translateX(0); /* slide to the normal position (no matter previous transform being from left or right) */
+    opacity: 1; /* becomes fully visible */
+}
+
+.question-card.hide-right {
+    transform: translateX(50%); /* slide off-screen to the right */
+    opacity: 0;
+}
+.question-card.hide-left {
+    transform: translateX(-50%); /* slide off-screen to the left (for prev-btn transition) */
+    opacity: 0;
+}
+.question-card.transfer-right {
+    /* slide off-screen to the right so that when visible it looks like the card is from the right (for prev-btn transition) */
+    transform: translateX(50%);
+    opacity: 0;
+}
+
+/* each row in the footer being centered */
 .footer-row{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
 }
+/* the horizontal line in the footer */
+hr{
+    border-top: 3px solid black; /* set to 3px thickness */
+    width: 30%; /* takes up 30% of the whole footer width */
+    margin: 0 20px;
+}
+/* the row that contains the contact info (this is in between the two <hr> */
 .contact-row{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-}
-hr{
-    border-top: 3px solid black;
-    width: 30%;
-    margin: 0 20px;
-}
-.hide{
-    display: none;
-}
-.name-warning{
-    color: red;
-}
-.prev-btn, .next-btn{
-    width: 90px;
-    height: 100px;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 10;
-}
-.prev-btn{
-    background: url(../images/left-arrow.png) center no-repeat;
-    background-size: cover;
-    left: -125px;
-}
-.next-btn{
-    background: url(../images/right-arrow.png) center no-repeat;
-    background-size: cover;
-    right: -125px;
-} 
-
-.btn{
-    margin: 5px;
-}
-.btn:hover {
-    transform: scale(1.01);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-.btn:active {
-    transform: scale(0.98);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;    /* in case the screen goes too small, the contact-icons will be forming columns */
 }
 
-.question-card {
-    transform: translateX(-50%); /* Start off-screen to the left */
-    opacity: 0;
-    transition: transform 0.25s ease, opacity 0.25s ease;
-    position: relative; /* Ensure transform works */
-}
-
-.question-card.visible {
-    transform: translateX(0); /* Slide to the normal position */
-    opacity: 1;
-}
-
-.question-card.hide-right {
-    transform: translateX(50%); /* Slide off-screen to the right */
-    opacity: 0;
-}
-.question-card.hide-left {
-    transform: translateX(-50%); /* Slide off-screen to the right */
-    opacity: 0;
-}
-.question-card.transfer-right {
-    transform: translateX(50%); /* Slide off-screen to the right */
-    opacity: 0;
-}
-
-
+/* contact-icon background images */
 .fb{
     background: url(../images/facebook-icon-1.png) no-repeat center;
 }
@@ -112,13 +126,17 @@ hr{
 .github{
     background: url(../images/github-icon-1.png) no-repeat center;
 }
+/* setting margins for the <a> tags that contain the contact-info */
+footer a {
+    margin: 10px 10px;
+}
+/* setting static dimensions and roundness (round circle) */
 .contact-icon{
     width: 50px;
     height: 50px;
-    margin: 10px 10px;
     border-radius: 100%;
-    cursor: pointer;
 }
+/* change contact-icons' image to white variant and background color to respective signature colors */
 .fb:hover{
     background: url(../images/facebook-icon-2.png) no-repeat center;
     background-color: var(--fb-bg);
@@ -134,4 +152,48 @@ hr{
 .github:hover{
     background: url(../images/github-icon-2.png) no-repeat center;
     background-color: var(--github-bg);
+}
+
+@media (max-width: 1024px) {
+    :root{
+        --base-font-size: 16px;
+    }
+    .card{
+        max-width: 45%; /* increase card max-width percentage to compensate with screen becoming small */
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+	:root{
+        --base-font-size: 14px;
+    }
+    .card{
+        min-width: 400px; /* reduce card min-width because arrow btns might not fit */
+        max-width: 50%; /* increase card max-width percentage to compensate with screen becoming small */
+    }
+    .prev-btn{
+        width: 50px; /*reduce size of button */
+        height: 70px;
+        left: -60px; /* reduce gap between the button and the card due to small screensize */
+    }
+    .next-btn{
+        width: 50px;
+        height: 70px;
+        right: -60px; /* reduce gap between the button and the card due to small screensize */
+    } 
+    footer a{
+        margin: 0 10px; /* at this size, the contact-icons starts to flex-wrap, so remove vertical margin */
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    :root{
+        --base-font-size: 12px;
+    }
+    .card{
+        min-width: 250px; /* reduce card min-width because arrow btns might not fit */
+        max-width: 60%; /* increase card max-width percentage to compensate with screen becoming small */
+    }
 }

@@ -187,7 +187,7 @@
             "15",
             "16"
         ],
-        "correct_index": 3,
+        "correct_index": 1,
         "category": "Math",
         "difficulty": "Easy"
     },
@@ -852,14 +852,14 @@
         "difficulty": "Easy"
     },
     {
-        "question": "Which of the following is not a primary color of light?",
+        "question": "Which of the following is not a traditional primary color?",
         "choices": [
             "Red",
             "Green",
             "Blue",
             "Yellow"
         ],
-        "correct_index": 3,
+        "correct_index": 1,
         "category": "Science",
         "difficulty": "Easy"
     },
