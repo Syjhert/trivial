@@ -207,7 +207,7 @@ $(document).ready(function(){
             $(".welcome-card").removeClass('hide');
         }
         else{
-            $(".question-card").removeClass('hide');
+            $(".question-container").removeClass('hide');
         }
     })
 
@@ -215,8 +215,9 @@ $(document).ready(function(){
     $(".about-link").on('click', ()=>{
         // hides other cards that are not the about-card
         $(".welcome-card").addClass('hide');
-        $(".question-card").addClass('hide');
         $(".contact-card").addClass('hide');
+        // hide question container
+        $(".question-container").addClass('hide');
         // shows the about card
         $(".about-card").removeClass('hide');
     })
@@ -225,8 +226,10 @@ $(document).ready(function(){
     $(".contact-link").on('click', ()=>{
         // hides other cards that are not the contact-card
         $(".welcome-card").addClass('hide');
-        $(".question-card").addClass('hide');
         $(".about-card").addClass('hide');
+        // hide question container
+        $(".question-container").addClass('hide');
+
         // shows the contact card
         $(".contact-card").removeClass('hide');
     })
